@@ -1,0 +1,28 @@
+body
+{
+	background-color: #f2f7ed;
+background-image: url("../media/background.jpg");
+background-repeat: no-repeat;
+background-position: center center;
+padding: 0;
+background-attachment: fixed;
+}
+
+.navbar
+{
+	background-color: #728c80!important;
+}
+
+.navbar a
+{
+	color: #fff!important;
+}
+
+.headimg
+{
+	background-color: #f2f7ed;
+	background-image: url("../media/header.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	min-height: 200px;
+}
