@@ -1,11 +1,22 @@
 body
 {
 	background-color: #f2f7ed;
-background-image: url("../media/background.jpg");
-background-repeat: no-repeat;
-background-position: center center;
-padding: 0;
-background-attachment: fixed;
+	background-image: url("../media/bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 0;
+	background-attachment: fixed;
+	font-family: Poppins;
+}
+
+h1, h2, h3, h4, a
+{
+	color: #728c80;
+}
+
+p
+{
+	color: #333;
 }
 
 .navbar
@@ -15,14 +26,39 @@ background-attachment: fixed;
 
 .navbar a
 {
-	color: #fff!important;
+	color: #ddd!important;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: smaller;
 }
 
 .headimg
 {
 	background-color: #f2f7ed;
-	background-image: url("../media/header.jpg");
+	background-image: url("../media/head.jpg");
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: left center;
 	min-height: 200px;
+}
+
+.ggbody
+{
+	background-color: #fff;
+}
+
+.ggfooter
+{
+	background-color: #f2f7ed;
+}
+
+.locaties
+{
+	border-radius: 90px;
+	display: block;
+	margin: 0 auto;
+}
+
+.locatie
+{
+	text-align: center;
 }

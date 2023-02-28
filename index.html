@@ -5,28 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Grijs & Groen - brocante, antieke meubelen, vintage</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Poppins:wght@100;300;400;600&display=swap" rel="stylesheet"> 
     <link href="css/style.css" rel="stylesheet" >
   
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="home">
       <div class="container">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon navbar-light"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Over ons</a>
+              <a class="nav-link" href="#overons">Over ons</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Onze winkels</a>
+              <a class="nav-link" href="#impressie">Impressie</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -34,14 +37,70 @@
     </nav>
 
     <main>
-      <div class="container">
+      <div class="container-md ggbody" id="overons">
         <div class="row">
             <div class="col-12 headimg"></div>
         </div>
+        <div class="row mt-4">
+            <div class="col-md-6">
+              <h1>Grijs en Groen</h1>
+              <h2>Moois van toen en nu</h2>
+              <p class="mt-4">Grijs en Groen heeft een loods en webwinkel vol mooie, bijzondere brocante en vintage meubelen en accessoires voor een interieur met een verhaal.</p>
+              <p>Regelmatig komen er nieuwe unieke stukken binnen in een landelijke en industriële stijl. Onze spullen worden ook verkocht in de Swan Store in Leiden en je kunt ons volgen op Facebook, Instagram en Pinterest.</p>
+              <p>Neem een kijkje in de winkel in Leiden, in de webwinkel of maak een afspraak om langs te komen in de opslag.</p>
+            </div>
+            <div class="col-md-6">
+              <img src="https://myshop.s3-external-3.amazonaws.com/shop4613300.images.fotohomepagina.jpg" width="100%">
+            </div>
+        </div>
+
+      <div class="row mt-4" id="impressie">
+        <h2>Impressie</h2>
+        <p>Instagram foto's</p>
+      </div>
+
+
+       <div class="row mt-4" id="contact">
+        <h2>Onze vestigingen</h2>
+          <div class="col-md-4 mt-2 mb-4">
+            <strong>Contactgegevens</strong>
+            <p>Nicole Smits</p>
+            <p>Telefoonnummer: 06-22605218<br />
+            E-mail: info@grijsengroen.nl</p>
+            <p><a href="http://facebook.com/grijsengroen">facebook.com/grijsengroen</a></p>
+            <p>KvK: 57976600<br />
+            IBAN: NL48 INGB 0008 1553 04<br />
+            BTW-id nummer: NL001802722B86</p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-md-4 locatie">
+            <img src="https://images.unsplash.com/photo-1626081299300-cd730749f11f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80" class="locaties" width="140" height="140">
+            <h3 class="fw-normal">Swan Store Leiden</h3>
+            <p>Oude Breestraat 109<br />
+            2311 CL Leiden</p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-md-4 locatie">
+            <img src="https://images.unsplash.com/photo-1626081299300-cd730749f11f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80" class="locaties" width="140" height="140">
+            <h3 class="fw-normal">Magazijn Leidschendam</h3>
+            <p>Oude Breestraat 109<br />
+            1234 AB Leidschendam</p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
       </div>
 
 
     </main>
+
+    <div class="container-md ggfooter">
+      <footer class="py-3 ggfooter">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#home" class="nav-link px-2 text-muted">Home</a></li>
+          <li class="nav-item"><a href="#overons" class="nav-link px-2 text-muted">Over ons</a></li>
+          <li class="nav-item"><a href="#impressie" class="nav-link px-2 text-muted">Impressie</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link px-2 text-muted">Contact</a></li>
+        </ul>
+        <p class="text-center text-muted">&copy; 2023 Grijs en Groen</p>
+      </footer>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
